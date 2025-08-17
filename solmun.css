@@ -2,6 +2,13 @@ html {
   max-width: 100vw;
 }
 
+.slide {
+  max-width: 100vw;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
 p {
   margin: 0;
 }
@@ -120,8 +127,43 @@ body {
 } */
 
 .slide-two {
-  max-width: 100vw;
+  background-image: url(Slide2background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  color: white;
+  position: relative;
+}
+
+.drutil2 {
+  background-color: rgba(0, 0, 0, 0.4);
   height: 100vh;
-  padding: 20px;
-  box-sizing: border-box;
+  max-width: 100vw;
+  display: grid;
+  justify-items: end;
+}
+
+.slide2ttext {
+  position: absolute;
+  top: 10vh;
+  right: 10vw;
+  width: 40vw;
+  float: right;
+}
+
+.slide2heading {
+  font-family: "Eagle Lake", serif;
+  color: #ffbf00;
+  font-size: 64px;
+  margin-bottom: 3vh;
+}
+
+.godspostion {
+  color: #2ba5a5;
+  font-family: "Kings";
+  font-size: 42px;
+}
+
+.slide2content {
+  font-size: 24px;
 }
