@@ -44,12 +44,14 @@ body {
   color: #ffbf00;
   font-family: "Le Jour";
   text-shadow: 0 0 4px #ffbf00, 0 0 16px #ffbf00;
+  font-size: 65px;
 }
 
 .MUN {
   color: #2ba5a5;
   font-family: "Le Jour";
   text-shadow: 0 0 4px #2ba5a5, 0 0 16px #2ba5a5;
+  font-size: 65px;
 }
 
 
@@ -147,7 +149,7 @@ body {
 
 .slide2ttext {
   position: absolute;
-  top: 10vh;
+  top: 25vh;
   right: 10vw;
   width: 40vw;
   float: right;
@@ -167,5 +169,5 @@ body {
 }
 
 .slide2content {
-  font-size: 24px;
+  font-size: 34px;
 }
