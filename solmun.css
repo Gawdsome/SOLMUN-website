@@ -39,6 +39,10 @@ body {
   margin-bottom: 15px;
   font-weight: normal;
 }
+a {
+  all: unset;      /* removes ALL inherited/default styles */
+  cursor: pointer; /* add back pointer cursor */
+}
 
 .contact-info p {
   margin: 6px 0;
